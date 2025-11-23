@@ -19,6 +19,8 @@ import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 import org.lasalle.recipeapp.ui.RecipeTheme
 import org.lasalle.recipeapp.ui.screens.auth.LoginScreen
+import org.lasalle.recipeapp.ui.screens.auth.RegisterScreen
+import org.lasalle.recipeapp.ui.screens.home.HomeScreen
 import recipeapp.composeapp.generated.resources.Res
 import recipeapp.composeapp.generated.resources.compose_multiplatform
 
@@ -26,6 +28,6 @@ import recipeapp.composeapp.generated.resources.compose_multiplatform
 @Preview
 fun App(){
     RecipeTheme {
-        LoginScreen()
+        HomeScreen()
     }
 }
